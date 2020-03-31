@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    background-color: #00539F; /* pinta o fundo */
+    margin: 0px 280px; /* cria margem */
+}
+
+div#cabecalho h1 {
+    color: #00539F; /* pinta a letra */
+    text-shadow: 2.5px 2.5px 1.5px black; /* faz sombreamento. Horizontal/ Vertical/ Espalhamento */
+    font-size: 60px; /* Tamanho da letra*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/* estilo da fonte "Familia"*/
+    margin-top: 0px; /* distância da margen entre o topo e a borda por exemplo. */
+    text-align: center; /* center= centraliza ou left= esquerda e assim por diante (alinha o texto)*/
+}
+
+div#cabecalho img {
+    margin-left: 220px;/* move para esquerda, ou direita caso use right */
+}
+
+div#cor-corpo {
+    line-height: 30px; /* espaçamento entre linhas em um parágrafo */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px; /* espaçamento do texto dentro da borda */
+    border: 5px solid black; /* cria uma borda */
+    background-color: #FF9500;
+}

@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+
+header#cabecalho {
+    background-color: black;
+    height: 80px;
+}
+
+nav.lista {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav.lista img {
+    width: 120px;
+}
+
+nav.container ul {
+    list-style: none;
+    color: white;
+    display: flex;
+}
+
+nav.container a {
+    color: white;
+    text-decoration: none;
+}
+
+nav.container li {
+    font-size: 15px;
+    padding: 0 20px;
+    font-weight: 700;
+}
+
+section#sessao1 {
+    background-color: #19E68C;
+    height: 560px;
+    color: white;
+}
+
+div.corpo1 {
+    font-size: 35px;
+    background-color:#19E68C;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.corpo1 p {
+    font-size: 15px;
+    font-weight: 100;
+    color: black;
+}
+
+div#imagemcorpo1 img {
+    display: flex;
+}
+
+section#sessao2 {
+    background-color: #FFFFFF;
+    height: 310px;
+}
+
+section#sessao3 {
+    background-color: #222326;
+    height: 420px;
+    color: white;
+}
+
+section#sessao3 img {
+    width: 500px;
+}
+
+section#sessao4 {
+    background-color: black;
+    height: 340px;
+    color: white;
+}
+
+footer#rodape {
+    background-color: black;
+    height: 190px;
+    color: white;
+}
+
+div.container img {
+    width: 120px;
+}
