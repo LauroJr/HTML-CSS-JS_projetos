@@ -9,6 +9,10 @@ body {
     font-weight: 900;
 }
 
+body h1 {
+    font-size: 45px;
+}
+
 header#cabecalho {
     background-color: black;
     height: 80px;
@@ -53,17 +57,31 @@ div.corpo1 {
     font-size: 35px;
     background-color:#19E68C;
     height: 560px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
 }
 
-div.corpo1 .lap-top {
-    height: 300px;
-    background-color: black;
-    display: flex;
-    flex-direction: column-reverse;
+div.corpo1 h1 {
+    padding-top: 220px;
+    padding-bottom: 30px;
+    padding-left: 160px;
+}
+
+div#gambiarra {
+    padding-left: 295px;
+}
+
+div#p1 {
+    padding-left: 370px;
+}
+
+div#p2 {
+    padding-left: 300px;
+}
+
+.lap-top {
+    margin-top: -150px;
+    padding-left: 990px;
+    height: 150px;
+    display: block;
 }
 
 div.corpo1 p {
@@ -72,19 +90,66 @@ div.corpo1 p {
     color: black;
 }
 
-div#imagemcorpo1 img {
-    display: flex;
-}
-
 section#sessao2 {
     background-color: #FFFFFF;
     height: 310px;
+}
+
+div.corpo2 {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 155px;
+}
+
+.corpo2 h2 {
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+.corpo2 p {
+    padding-top: 30px;
+}
+
+.app {
+    padding-top: 30px;
+    margin-left: 490px;
 }
 
 section#sessao3 {
     background-color: #222326;
     height: 420px;
     color: white;
+}
+
+.centro {
+    display: flex;
+    
+}
+
+.corpo3 ul {
+    padding-top: 30px;
+    padding-left: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.corpo3 h2 {
+    font-size: 30px;
+    padding-left: 250px;
+    padding-top: 20px;
+}
+
+.logocentral {
+    padding-top: 80px;
+    padding-left: 450px;
+}
+
+.lista {
+    padding-right: 40px;
+    font-weight: 350;
 }
 
 section#sessao3 img {
@@ -99,10 +164,35 @@ section#sessao4 {
 
 footer#rodape {
     background-color: black;
-    height: 190px;
+    height: 340px;
     color: white;
 }
 
 div.container img {
     width: 120px;
+}
+
+.container2 li {
+    padding-top: 250px;
+    margin: 15px;
+}
+
+.container2 ul {
+    padding-left: 60px;
+    color: #919496;
+    font-weight: 100;
+    font-size: 12px;
+    list-style: none;
+    display: flex;
+}
+
+div#rodape2 {
+    color: #919496;
+    font-size: 10px;
+    padding-left: 1150px;
+}
+
+div#rodape2 img {
+    width: 30px;
+    padding-left: 60px;
 }
